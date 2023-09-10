@@ -1,13 +1,13 @@
 import React from 'react';
 
-function Header() {
+function Featured() {
     return (
         <> 
             <div>
-                <h2>Header</h2>
+                <h2>Featured</h2>
             </div>
         </>
     )
 }
 
-export default Header;
+export default Featured;
