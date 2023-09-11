@@ -1,0 +1,45 @@
+.banner {
+    width: 100%;
+    height: 100vh;
+    background: url(../../assets/banner.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.banner::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background: #42394b;
+    opacity: .60;
+}
+
+.bannerTop {
+    z-index: 1;
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    /*padding-top: 10px;*/
+}
+
+.logoContainer {
+    display: flex;
+    align-items: center;
+}
+
+.bannerImage {
+    width: 90px;
+    height: 50px;
+}
+
+.logoContainer {
+    margin-right: 200px;
+}
+
+.logoContainer span {
+    margin-left: -10px;
+}

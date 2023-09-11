@@ -2,7 +2,6 @@
 import Header from './components/Header/Header'
 import Featured from './components/Featured/Featured'
 import Footer from './components/Footer/Footer'
-import './App.css'
 
 function App() {
     return (
