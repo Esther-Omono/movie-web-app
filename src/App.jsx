@@ -1,15 +1,21 @@
-//import { useState } from 'react'
-import Header from './components/Header/Header'
-import Featured from './components/Featured/Featured'
+import React from 'react';
 import Footer from './components/Footer/Footer'
+import HomePage from './components/HomePage/HomePage'
+import MovieDetails from './components/MovieDetails/MovieDetails';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+
 
 function App() {
     return (
-        <> 
-            <Header />
-            <Featured />
+        <div>
+            <BrowserRouter>
+                <Routes>
+                    <Route path='/' element={<HomePage />} />
+                    <Route path="/movies/:id" element={<MovieDetails />} />
+                </Routes>
+            </BrowserRouter>
             <Footer />
-        </>
+        </div>
     )
 }
 

@@ -15,31 +15,3 @@
     background: #42394b;
     opacity: .60;
 }
-
-.bannerTop {
-    z-index: 1;
-    position: relative;
-
-    display: flex;
-    align-items: center;
-    justify-items: center;
-    /*padding-top: 10px;*/
-}
-
-.logoContainer {
-    display: flex;
-    align-items: center;
-}
-
-.bannerImage {
-    width: 90px;
-    height: 50px;
-}
-
-.logoContainer {
-    margin-right: 200px;
-}
-
-.logoContainer span {
-    margin-left: -10px;
-}

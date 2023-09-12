@@ -1,0 +1,28 @@
+.navbar {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px 20px;
+    z-index: 1;
+    position: relative;
+}
+
+.navbarLogo img {
+    width: 100px;
+    height: 55px;
+    margin-right: 100px;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        display: flex;
+    }
+
+    .navbarLogo {
+        margin-bottom: 10px;
+    }
+
+    .navbarSearch {
+        margin-left: -100px;
+    }
+}
