@@ -1,4 +1,4 @@
-.movie-card {
+.movieCard {
     background-color: #fff;
     border: 1px solid #ccc;
     border-radius: 8px;
@@ -7,39 +7,39 @@
     transition: transform 0.2s ease-in-out;
 }
   
-.movie-card img {
+.movieCard img {
     max-width: 100%;
     height: auto;
     border-radius: 4px;
 }
   
-.movie-card h2 {
+.movieCard h2 {
     font-size: 1.1rem;
     margin-top: 10px;
     color: #000;
 }
   
-.movie-card p {
+.movieCard p {
     font-size: 1rem;
     color: #777;
 }
   
 /* Hover effect to make cards slightly larger */
-.movie-card:hover {
+.movieCard:hover {
     transform: scale(1.05);
 }
   
 /* Media query for smaller screens */
 @media (max-width: 768px) {
-    .movie-card {
+    .movieCard {
       font-size: 0.9rem;
     }
   
-    .movie-card h2 {
+    .movieCard h2 {
       font-size: 1rem;
     }
   
-    .movie-card p {
+    .movieCard p {
       font-size: 0.8rem;
     }
 }

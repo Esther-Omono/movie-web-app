@@ -28,19 +28,21 @@ const Search = ({ onSearch }) => {
       };
 
     return (
-        <div className='searchContainer'>
-            <input
-                type='text'
-                placeholder='Search...'
-                value={query}
-                className='searchInput'
-                onChange={(e) => setQuery(e.target.value)}
-            />
-            <button onClick={handleSearch} disabled={loading} className='searchButton'>
-                <AiOutlineSearch className='searchIcon'/>
-                {loading ? 'Searching...' : 'Search'}
-            </button>
-        </div>
+        <>
+            <div className='searchContainer'>
+                <input
+                    type='text'
+                    placeholder='Search...'
+                    value={query}
+                    className='searchInput'
+                    onChange={(e) => setQuery(e.target.value)}
+                />
+                <button onClick={handleSearch} className='searchButton'>
+                    <AiOutlineSearch className='searchIcon'/>
+                </button>
+            </div>
+            {loading && <div className='loading'>Loading...</div>}
+        </>
     )
 }
 

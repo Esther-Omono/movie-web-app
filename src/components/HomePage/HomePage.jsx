@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import './homepage.css';
 import MovieCard from '../MovieCard/MovieCard';
+import logo from '../../assets/tv.png';
 import Search from '../Search/Search';
 import { Link } from 'react-router-dom';
-import Header from '../Header/Header';
 import SearchResults from '../SearchResults/SearchResults';
 
 const HomePage = () => {
@@ -51,9 +51,16 @@ const HomePage = () => {
     // Movie Cards
     return (
         <>
-            <Header />
+            <div className='header'>
+                <div className='logo'>
+                    <img src={logo} alt='Logo' />
+                    <h2>MovieBox</h2>
+                </div>
+
+                <Search onSearch={handleSearch}/>
+            </div>
+            
             <h1 className='homepageTitle'>Top 10 Movies</h1>
-            <Search onSearch={handleSearch}/>
             <div className='homepage'>
                 {searchResults.length > 0 ? (
                     <SearchResults results={searchResults} />
