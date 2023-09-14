@@ -1,10 +1,10 @@
 import React from 'react';
 import MovieCard from '../MovieCard/MovieCard';
-import './SearchResults.css';
+import './searchresults.css';
 
 const SearchResults = ({ results, loading }) => {
     return (
-        <div className="search-results">
+        <div className="searchResults">
             {loading ? (
                 <div className='loading'>Loading...</div>
             ) : (
