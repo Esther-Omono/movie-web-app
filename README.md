@@ -1,8 +1,14 @@
-# React + Vite
+# Movie Discovery Web Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is the stage two task of the HNGx internship. It was created using ReactJS and CSS for styling.
 
-Currently, two official plugins are available:
+## Description
+This web application allows users to search for movies, and view details about them. It consumes data from the TMDB API to fetch movie data.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+* Top ten (10) rated movies on the home page
+* Search function to search for movies by title
+* Information about the movie clicked on
+
+## 🔗 Link
+* [Live Demo Link](https://movie-web-app-silk.vercel.app/)
