@@ -28,6 +28,7 @@ const Search = ({ onSearch }) => {
       };
 
     return (
+        // Search component
         <>
             <div className='searchContainer'>
                 <input

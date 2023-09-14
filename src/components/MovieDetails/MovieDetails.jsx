@@ -34,6 +34,7 @@ const MovieDetails = () => {
     };
 
     return (
+        // Movie Details
         <div className='movieDetails'>
             <div className='titleFav'>
                 <h1 data-testid='movie-title'>{movieDetails.title}</h1>

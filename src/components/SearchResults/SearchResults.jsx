@@ -3,6 +3,7 @@ import MovieCard from '../MovieCard/MovieCard';
 import './searchresults.css';
 
 const SearchResults = ({ results, loading }) => {
+    // Search function
     return (
         <div className="searchResults">
             {loading ? (

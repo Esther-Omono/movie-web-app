@@ -8,6 +8,7 @@ import './footer.css';
 
 const Footer = () => {
     return (
+        // Footer Component
         <div className='footer'>
             <div className="socialIcons">
                 <Link href="#"><BsFacebook /></Link>

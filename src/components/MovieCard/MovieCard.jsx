@@ -6,6 +6,7 @@ const MovieCard = ({ movie }) => {
     const posterUrl = `https://image.tmdb.org/t/p/w500${poster_path}`;
 
     return (
+        // Movie Card
         <div className="movieCard" data-testid="movie-card">
             <img src={posterUrl} alt={title} data-testid="movie-poster" />
             <h2 data-testid="movie-title">{title}</h2>
